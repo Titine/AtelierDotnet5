@@ -1,0 +1,9 @@
+﻿<Window x:Class="Atelier_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:Atelier_5.View"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <my:FilteredListViewModel x:Name="FilteredListViewModel" />
+    </Grid>
+</Window>
